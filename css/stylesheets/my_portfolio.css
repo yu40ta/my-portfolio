@@ -194,3 +194,95 @@ a {
               -webkit-transition: all 0.3s ease-in-out;
               -o-transition: all 0.3s ease-in-out;
               transition: all 0.3s ease-in-out; }
+
+.works {
+  background-color: #262F56;
+  padding: 120px 0;
+  text-align: center; }
+  .works__head {
+    position: relative;
+    display: inline-block;
+    margin: 0 0 15px;
+    padding-bottom: 15px;
+    letter-spacing: 2px;
+    font-size: 4rem; }
+    .works__head::before, .works__head::after {
+      content: '';
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      border-bottom: 1px solid #999; }
+    .works__head::before {
+      bottom: 5px; }
+  .works__sub-head {
+    margin-top: 48px;
+    font-size: 2.2rem;
+    text-align: left; }
+    .works__sub-head__text {
+      font-size: 2.6rem; }
+  .works__table {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 72px auto 0; }
+    .works__table__box {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      position: relative;
+      margin: 0 0 48px 12px;
+      width: 24%; }
+      .works__table__box:nth-child(4n+1) {
+        margin-left: 0px; }
+      .works__table__box__image {
+        display: block;
+        width: 100%; }
+      .works__table__box__inner {
+        padding: 16px 8px; }
+        .works__table__box__inner__text {
+          line-height: 1.4;
+          letter-spacing: 1.2; }
+          .works__table__box__inner__text__title {
+            font-weight: 600; }
+          .works__table__box__inner__text__desc {
+            margin: 12px 0 0; }
+          .works__table__box__inner__text__button {
+            margin-top: auto;
+            padding: 24px 0; }
+            .works__table__box__inner__text__button__link {
+              width: 50%;
+              padding: 12px 48px;
+              color: #fff;
+              background-color: #009498;
+              font-weight: 600;
+              -webkit-transition: all 0.5s ease-in-out;
+              -o-transition: all 0.5s ease-in-out;
+              transition: all 0.5s ease-in-out;
+              opacity: 0.8; }
+              .works__table__box__inner__text__button__link:hover {
+                background-color: #98DDDE;
+                opacity: 0.9;
+                -webkit-transition: all 0.5s ease-in-out;
+                -o-transition: all 0.5s ease-in-out;
+                transition: all 0.5s ease-in-out; }
+  .works__github {
+    margin-top: 24px; }
+    .works__github:hover {
+      opacity: 0.7;
+      text-decoration: underline; }
+    .works__github__link {
+      color: #fff; }
+      .works__github__link__icon {
+        font-size: 8rem; }
+      .works__github__link__text {
+        margin-top: 12px; }
