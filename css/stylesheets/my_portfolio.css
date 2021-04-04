@@ -39,6 +39,25 @@ a {
   text-decoration: none;
   color: #98DDDE; }
 
+#container-circle {
+  margin: 0 auto;
+  width: 150px;
+  height: 150px; }
+
+#container-line {
+  margin: 3px 0 12px;
+  width: 100%;
+  height: 8px; }
+
+#container-line-bold {
+  margin: 8px 0;
+  width: 100%; }
+
+.reverse {
+  -webkit-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1); }
+
 .header {
   position: -webkit-sticky;
   position: sticky;
@@ -286,3 +305,207 @@ a {
         font-size: 8rem; }
       .works__github__link__text {
         margin-top: 12px; }
+
+.skills {
+  padding: 120px 80px;
+  background-color: #fff;
+  color: #333;
+  text-align: center; }
+  .skills__head {
+    position: relative;
+    display: inline-block;
+    margin: 0 0 15px;
+    padding-bottom: 15px;
+    letter-spacing: 2px;
+    font-size: 4rem; }
+    .skills__head::before, .skills__head::after {
+      content: '';
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      border-bottom: 1px solid #999; }
+    .skills__head::before {
+      bottom: 5px; }
+  .skills__summary {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    margin-top: 48px; }
+    .skills__summary__box__icon {
+      width: 150px;
+      height: 150px;
+      padding: 30px;
+      margin-bottom: 30px;
+      border: 4px solid #FFDA2A;
+      border-radius: 50%; }
+    .skills__summary__box__title {
+      margin: 0 20px 20px;
+      font-size: 2rem; }
+    .skills__summary__box__text {
+      margin: 0 20px;
+      font-size: 1.4rem;
+      line-height: 2; }
+  .skills__sub-head-left {
+    text-align: left;
+    margin-top: 36px;
+    padding-left: 6px;
+    font-size: 2.2rem; }
+  .skills__sub-head-right {
+    text-align: right;
+    margin-top: 36px;
+    padding-right: 6px;
+    font-size: 2.2rem; }
+  .skills__sub-head-center {
+    text-align: center;
+    margin-top: 36px;
+    font-size: 2.2rem; }
+  .skills__languages-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column wrap;
+    flex-flow: column wrap;
+    text-align: left;
+    max-height: 300px;
+    margin-top: 48px; }
+    .skills__languages-content__box {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      margin-bottom: 24px;
+      padding: 0 8px;
+      width: 30%; }
+      .skills__languages-content__box:last-child {
+        margin-bottom: 0px; }
+      .skills__languages-content__box__left {
+        text-align: center;
+        width: 50px;
+        height: 60px; }
+        .skills__languages-content__box__left__icon {
+          width: 100%;
+          height: 100%; }
+      .skills__languages-content__box__right {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+        width: 100%;
+        padding: 4px 0;
+        margin-left: 12px; }
+  .skills__flameworks-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column wrap;
+    flex-flow: column wrap;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+    text-align: right;
+    margin-top: 48px; }
+    .skills__flameworks-content__box {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+      flex-direction: row-reverse;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      margin-bottom: 12px;
+      padding: 0 8px 0 24px;
+      width: 50%;
+      height: 30%; }
+      .skills__flameworks-content__box:last-child {
+        margin-bottom: 0px; }
+      .skills__flameworks-content__box__right {
+        text-align: center;
+        width: 100px; }
+        .skills__flameworks-content__box__right__icon {
+          width: 100%;
+          height: 100%; }
+        .skills__flameworks-content__box__right .bootstrap {
+          padding: 10%; }
+        .skills__flameworks-content__box__right .react {
+          padding: 5%; }
+      .skills__flameworks-content__box__left {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        text-align: right;
+        margin-right: 16px;
+        padding: 20px 0;
+        width: 100%; }
+  .skills__other-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 48px; }
+    .skills__other-content__box {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      width: 20%;
+      text-align: center; }
+      .skills__other-content__box__progress {
+        position: relative;
+        padding: 12px; }
+        .skills__other-content__box__progress .git-center, .skills__other-content__box__progress .github-center {
+          position: absolute;
+          top: 12.5%;
+          right: 0;
+          bottom: 0;
+          left: 12.5%;
+          padding: 20px;
+          width: 75%; }
+        .skills__other-content__box__progress .aws-center {
+          position: absolute;
+          top: 25%;
+          right: 0;
+          bottom: 0;
+          left: 12.5%;
+          padding: 20px;
+          width: 75%; }
+        .skills__other-content__box__progress .linux-center {
+          position: absolute;
+          top: 8%;
+          right: 0;
+          bottom: 0;
+          left: 12.5%;
+          padding: 20px;
+          width: 75%; }
+      .skills__other-content__box__title {
+        font-size: 1.6rem;
+        font-weight: 600; }
+      .skills__other-content__box__text {
+        margin-top: 12px; }
+  .skills__horizontal {
+    border: 2px solid #f5f5f5;
+    margin: 48px 0; }
