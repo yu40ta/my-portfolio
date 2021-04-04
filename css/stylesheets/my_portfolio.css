@@ -17,3 +17,88 @@
   *::before, *::after {
     -webkit-box-sizing: border-box;
     box-sizing: border-box; }
+
+html {
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Helvetica, "游ゴシック体", YuGothic, "Yu Gothic M", "游ゴシック Medium", "Yu Gothic Medium", "メイリオ", Meiryo, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 62.5%;
+  -webkit-font-feature-settings: "palt" 1;
+  font-feature-settings: "palt" 1;
+  scroll-behavior: smooth; }
+
+body {
+  background: #151515 url("../images/StockSnap_7XI32LEZNO.jpg") no-repeat fixed left bottom;
+  background-size: cover;
+  color: #fff;
+  font-size: 1.4rem;
+  line-height: 1; }
+
+ol, ul, li {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: #98DDDE; }
+
+.header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  text-align: center;
+  z-index: 999; }
+  .header a {
+    display: inline-block;
+    text-decoration: none;
+    color: #ccc;
+    padding: 20px 30px;
+    font-size: 1.6rem; }
+    .header a.active {
+      background-color: #81894E;
+      color: #fff; }
+    .header a:hover {
+      opacity: 0.7; }
+
+.home {
+  padding: 220px 30px;
+  text-align: center; }
+  .home__title {
+    font-size: 7rem;
+    font-weight: 400;
+    margin: 50px 0 40px; }
+  .home__sub-title {
+    margin: 0 0 30px;
+    letter-spacing: 1px;
+    font-size: 2rem; }
+    .home__sub-title::before, .home__sub-title::after {
+      content: '';
+      display: inline-block;
+      width: 80px;
+      height: 2px;
+      margin: 0 30px;
+      background-color: #fff;
+      vertical-align: middle; }
+  .home__description {
+    margin: 50px 0;
+    color: #ccc;
+    font-size: 2.8rem; }
+  .home__button {
+    display: inline-block;
+    width: 200px;
+    padding: 20px;
+    border-radius: 30px;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 600;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out; }
+    .home__button:hover {
+      color: #333;
+      background-color: rgba(251, 219, 101, 0.7);
+      border: 2px solid #FFDA2A;
+      -webkit-transition: all 0.5s ease-in-out;
+      -o-transition: all 0.5s ease-in-out;
+      transition: all 0.5s ease-in-out; }
